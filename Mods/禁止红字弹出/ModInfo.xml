@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="thz" />
+	<DisplayName value="thz" />
+	<Description value="thz" />
+	<Author value="my" />
+	<Version value="1.1.0.4" />
+	<Website value="" />
+	<SkipWithAntiCheat value="true" />
+</xml>

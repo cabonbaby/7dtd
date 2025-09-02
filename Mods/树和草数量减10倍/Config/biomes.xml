@@ -1,0 +1,31 @@
+<anan>
+  
+	<!-- 树数量减少十倍 -->
+	<set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[contains(@blockname,'tree')][@prob>.79]/@prob">.08</set>
+	<set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[contains(@blockname,'tree')][@prob>.34][.79>@prob]/@prob">.035</set>
+	<set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[contains(@blockname,'tree')][@prob>.09][.34>@prob]/@prob">.01</set>
+	<set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[contains(@blockname,'tree')][@prob>.039][.09>@prob]/@prob">.004</set>
+	<set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[contains(@blockname,'tree')][@prob>.009][.039>@prob]/@prob">.001</set>
+	<set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[contains(@blockname,'tree')][@prob>.0029][.009>@prob]/@prob">.0003</set>
+	<set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[contains(@blockname,'tree')][@prob>.0009][.0029>@prob]/@prob">.0001</set>
+	<set xpath="/worldgeneration/biomes/biome/decorations/decoration[contains(@blockname,'tree')][@prob>.79]/@prob">.08</set>
+	<set xpath="/worldgeneration/biomes/biome/decorations/decoration[contains(@blockname,'tree')][@prob>.34][.79>@prob]/@prob">.035</set>
+	<set xpath="/worldgeneration/biomes/biome/decorations/decoration[contains(@blockname,'tree')][@prob>.09][.34>@prob]/@prob">.01</set>
+	<set xpath="/worldgeneration/biomes/biome/decorations/decoration[contains(@blockname,'tree')][@prob>.039][.09>@prob]/@prob">.004</set>
+	<set xpath="/worldgeneration/biomes/biome/decorations/decoration[contains(@blockname,'tree')][@prob>.009][.039>@prob]/@prob">.001</set>
+	<set xpath="/worldgeneration/biomes/biome/decorations/decoration[contains(@blockname,'tree')][@prob>.0029][.009>@prob]/@prob">.0003</set>
+	<set xpath="/worldgeneration/biomes/biome/decorations/decoration[contains(@blockname,'tree')][@prob>.0009][.0029>@prob]/@prob">.0001</set>
+	
+	<!-- 草数量减少十倍 -->
+	<set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@blockname='treeDesertShrub']/@prob">.008</set>
+	<set xpath="/worldgeneration/biomes/biome/decorations/decoration[@blockname='treeDesertShrub']/@prob">.008</set> 
+	<set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@blockname='treeSnowyGrassDiagonal']/@prob">.005</set>
+	<set xpath="/worldgeneration/biomes/biome/decorations/decoration[@blockname='treeSnowyGrassDiagonal']/@prob">.005</set>
+	<set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@blockname='treeTallGrassDiagonal']/@prob">.008</set>
+	<set xpath="/worldgeneration/biomes/biome/decorations/decoration[@blockname='treeTallGrassDiagonal']/@prob">.008</set>
+	<set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@blockname='treeBrownGrassDiagonal']/@prob">.008</set>
+	<set xpath="/worldgeneration/biomes/biome/decorations/decoration[@blockname='treeBrownGrassDiagonal']/@prob">.0008</set>
+	<set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@blockname='treeShortGrass']/@prob">.07</set>
+	<set xpath="/worldgeneration/biomes/biome/decorations/decoration[@blockname='treeShortGrass']/@prob">.07</set>
+	
+</anan>

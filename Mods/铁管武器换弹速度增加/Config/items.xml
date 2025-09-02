@@ -1,0 +1,24 @@
+<config>
+
+<!-- 枪械 -->
+<remove xpath="//items/item[@name='gunHandgunT0PipePistol']/property[@name='Tags']"/><!-- 铁管手枪 -->
+<append xpath="/items/item[@name='gunHandgunT0PipePistol']">
+	<property name="Tags" value="铁管枪,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,9mmGun,attachmentsIncluded,canHaveCosmetic,handgunSkill,rangerDamage"/>
+</append>
+
+<remove xpath="//items/item[@name='gunMGT0PipeMachineGun']/property[@name='Tags']"/><!-- 铁管机枪 -->
+<append xpath="/items/item[@name='gunMGT0PipeMachineGun']">
+	<property name="Tags" value="铁管枪,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic,machinegunSkill"/>
+</append>
+
+<remove xpath="//items/item[@name='gunRifleT0PipeRifle']/property[@name='Tags']"/><!-- 铁管步枪 -->
+<append xpath="/items/item[@name='gunRifleT0PipeRifle']">
+	<property name="Tags" value="铁管枪,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,attachmentsIncluded,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic,rifleSkill"/>
+</append>
+
+<remove xpath="//items/item[@name='gunShotgunT0PipeShotgun']/property[@name='Tags']"/><!-- 铁管霰弹枪 -->
+<append xpath="/items/item[@name='gunShotgunT0PipeShotgun']">
+	<property name="Tags" value="铁管枪,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,smallTopAttachments,noScopes,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,shotgunSkill"/>
+</append>
+
+</config>

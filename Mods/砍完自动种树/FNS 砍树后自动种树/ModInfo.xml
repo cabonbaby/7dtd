@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+		<Name value="FNS_Self-Planting_Trees" />
+		<DisplayName value="FNS Self-Planting Trees" />
+		<Description value="The trees immediately replant themselves in the same spot after you cut them down.  It also drastically removes tree seeds, so there is less hassle with inventory management and replanting." />
+		<Author value="FlufferNutterSandwich" />
+		<Version value="1.0" />
+		<Website value="" />
+</xml>

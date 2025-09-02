@@ -1,0 +1,7 @@
+<configs>
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='velocityMax_turbo']/@value">18, 18, 30, 18</set> <!-- Default 9, 9, 15, 9 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='velocityMax_turbo']/@value">12, 8, 17, 8</set> <!-- Default 6, 4, 8.5, 4 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='velocityMax_turbo']/@value">14, 8, 18.4, 8</set> <!-- Default 7, 4, 9.2, 4 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='velocityMax_turbo']/@value">19.6, 12, 28, 16</set> <!-- Default 9.8, 6, 14, 8 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleTruck4x4']/property[@name='velocityMax_turbo']/@value">20, 16, 28, 20</set> <!-- Default 10, 8, 14, 10 -->
+</configs>

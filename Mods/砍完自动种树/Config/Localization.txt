@@ -1,0 +1,6 @@
+Key,english,schinese
+treeOakSapling,"Oak Sapling","橡树苗"
+treeMountainPineSapling,"Pine Sapling","松树苗"
+treeWinterPineSapling,"Blue Spruce Sapling","蓝云杉树苗"
+treeBurntWastelandSapling,"'Dead' Sapling","‘枯死’树苗"
+treeCactusSapling,"Cactus 'Sapling'","‘仙人掌’幼苗"

@@ -1,0 +1,14 @@
+<configs>
+	<set xpath="/items/item/effect_group/passive_effect[@name='SpreadDegreesVertical']/@value">0</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='SpreadDegreesHorizontal']/@value">0</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='SpreadMultiplierAiming']/@value">0</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='SpreadMultiplierCrouching']/@value">0</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='SpreadMultiplierWalking']/@value">0</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='SpreadMultiplierRunning']/@value">0</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='IncrementalSpreadMultiplier']/@value">0</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='WeaponHandling']/@value">1.0</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='KickDegreesVerticalMin']/@value">0</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='KickDegreesVerticalMax']/@value">0</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='KickDegreesHorizontalMin']/@value">0</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='KickDegreesHorizontalMax']/@value">0</set>
+</configs>

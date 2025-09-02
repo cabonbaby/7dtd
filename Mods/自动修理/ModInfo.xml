@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="AutoRepair"/>
+	<DisplayName value="自动修理"/>
+	<Description value="自动修理，当你手中持有的武器小于1%时，消耗你背包的中的维修工具自动修复耐久"/>
+	<Author value="XY"/>
+	<Version value="1.0"/>
+	<Website value="https://www.7risha.com/author/94883"/>
+</xml>

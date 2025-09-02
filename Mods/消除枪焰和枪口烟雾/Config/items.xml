@@ -1,0 +1,10 @@
+<configs>
+
+<!-- Remove muzzle flash from all guns (except Nailgun and Paintgun). -->
+
+	<remove xpath="/items/item[not (@name='meleeToolRepairT3Nailgun' or @name='meleeToolPaintTool')]/property/property[@name='Particles_muzzle_fire']" />
+	<remove xpath="/items/item[not (@name='meleeToolRepairT3Nailgun' or @name='meleeToolPaintTool')]/property/property[@name='Particles_muzzle_fire_fpv']" />
+	
+	
+    <remove xpath="/items/item[not (@name='meleeToolRepairT3Nailgun' or @name='meleeToolPaintTool')]/property[@class='Action0']/requirement[@name='CVarCompare']" />
+</configs>

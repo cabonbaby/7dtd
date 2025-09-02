@@ -1,0 +1,23 @@
+<configs>
+    
+    <set xpath="/item_modifiers/item_modifier[contains(@name, 'modGunDrumMagazineExtender')]/@modifier_tags">magazineDrum</set>
+    <set xpath="/item_modifiers/item_modifier[contains(@name, 'modMeleeFortifyingGrip')]/@modifier_tags">StamFort</set>
+    
+    <set xpath="/item_modifiers/item_modifier[contains(@name, 'modMeleeDiamondTip')]/@modifier_tags">DurabilityMax</set>
+    <set xpath="/item_modifiers/item_modifier[contains(@name, 'modMeleeTemperedBlade')]/@modifier_tags">damage1,durability1</set>
+    <set xpath="/item_modifiers/item_modifier[contains(@name, 'modMeleeSerratedBlade')]/@modifier_tags">damage2</set>
+    
+    <set xpath="/item_modifiers/item_modifier[contains(@name, 'modMeleeFiremansAxeMod')]/@modifier_tags">damageDirt1,damageStone1,damageIron1,damageWood1</set>
+    <set xpath="/item_modifiers/item_modifier[contains(@name, 'modFuelTankLarge')]/@modifier_tags">fuelMax</set>
+    
+    <set xpath="/item_modifiers/item_modifier[contains(@name, 'modMeleeClubBarbedWire')]/@modifier_tags">clubBarbed</set>
+    <set xpath="/item_modifiers/item_modifier[contains(@name, 'modMeleeClubMetalSpikes')]/@modifier_tags">clubSpiked</set>
+    <set xpath="/item_modifiers/item_modifier[contains(@name, 'modMeleeClubMetalChain')]/@modifier_tags">clubChained</set>
+    
+
+    <set xpath="/item_modifiers/item_modifier[@name='modMeleeClubBarbedWire']/@installable_tags">melee</set>
+    <set xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalSpikes']/@installable_tags">melee</set>
+    <set xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalChain']/@installable_tags">melee</set>
+    <set xpath="/item_modifiers/item_modifier[@name='modMeleeFiremansAxeMod']/@installable_tags">melee</set>
+    
+</configs>

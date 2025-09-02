@@ -1,0 +1,5 @@
+<anan>
+    
+   <set xpath="/blocks/block[@name='treeGrassMaster']/drop[@name='resourceYuccaFibers']/@count">20</set>
+  
+</anan>

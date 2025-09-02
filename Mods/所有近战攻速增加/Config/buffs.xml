@@ -1,0 +1,29 @@
+<config>
+
+	<!-- 天生自带的buff -->   <!-- 游戏一开始就有的buff -->   <!-- 下面append里就有@name的 -->
+    <append xpath="/buffs/buff[@name='buffStatusCheck01']">
+	            <!-- 换弹buff -->
+        <effect_group>
+            <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="工具加强buff">
+                <requirement name="!HasBuff" buff="工具加强buff"/>
+            </triggered_effect>
+        </effect_group>
+	</append>
+	
+	<!-- 独立的buff -->   <!-- 装备后或者使用后才有的buff -->   <!-- 下面append里只有buffs的，需要后面加buff name的 -->
+    <append xpath="/buffs">
+	    	<!-- 工具加强buff -->
+        <buff name="工具加强buff" hidden="true">
+        <stack_type value="ignore"/>
+        <duration value="0"/>
+        	<effect_group>
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value="0.5"/>      <!-- 增加近战攻击速度 -->
+			<passive_effect name="EntityDamage" operation="perc_add" value="0.2"/>           <!-- 增加实体伤害 -->
+        	</effect_group>
+        </buff>
+    </append>
+</config>
+	
+	
+	
+	

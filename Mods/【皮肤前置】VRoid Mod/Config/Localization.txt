@@ -1,0 +1,9 @@
+Key,English
+vroid_version,VRoid Mod v2.4.1
+toggleSpringBonestt,Toggle Spring Bones.
+toggleFPAimtt,Toggle First Person aiming.
+toggleFPArmstt,Toggle First Person arms and legs.
+toggleEyeweartt,Toggle Eyewear.
+toggleTransparencytt,Toggle close up transparency.
+HelmetControlstt,Change helmet and hair visibility.
+ShaderControlstt,"Change shader type.\n[FAD02C][RealToon][-] has the best lighting for anime models.\n[FAD02C][RealToon Self-Lit][-] makes models look brigther.\n[FAD02C][Custom Shader][-] uses the shader bundled with the model."

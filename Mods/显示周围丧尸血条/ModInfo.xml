@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="Health_Head"/>	<!-- 这行代码要与主类名相同 -->
+	<DisplayName value="头顶血条"/>	<!-- 名称 -->
+	<Description value="头顶血条"/>	<!-- 名称 -->
+	<Author value="Ma"/>	<!-- 作者 -->
+	<Version value="1.0"/>	<!-- 版本 -->
+	<Website value=" "/>
+	<SkipWithAntiCheat value="true"/> 
+</xml>

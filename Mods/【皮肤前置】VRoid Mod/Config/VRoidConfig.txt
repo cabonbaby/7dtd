@@ -1,0 +1,13 @@
+LastUsedAvatar:
+ShaderMode:1
+TransparencyMode:1
+AimMode:1
+ArmsMode:1
+HelmetMode:0
+EyeWearMode:0
+SpringBonesMode:1
+VRoidEnabled:0
+VRoidFPV:0
+VoiceOverride:0
+RightHand:0,0,0
+LeftHand:0,0,0

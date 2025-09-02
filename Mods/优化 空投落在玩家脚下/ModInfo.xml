@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="AirDropLocationPatch"/>	<!-- 这行代码要与主类名相同 -->
+	<DisplayName value="空投落脚底"/>	<!-- 名称 -->
+	<Description value="空投落脚底"/>	<!-- 名称 -->
+	<Author value="Ma"/>	<!-- 作者 -->
+	<Version value="1.0"/>	<!-- 版本 -->
+	<Website value=" "/>
+</xml>

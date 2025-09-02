@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <Name value="FPS_Cleaner_Roads_and_Biomes" />
+    <DisplayName value="FPS Cleaner Roads and Biomes" />
+    <Version value="21.1.0.0" />
+    <Description value="Removes most trash and rubbish from roads and junk and landmines from Wasteland. Ember piles are removed from Burnt Forest." />
+    <Author value="fatrap" />
+    <Website value="" />
+</xml>

@@ -1,0 +1,22 @@
+<configs>
+		
+	<append xpath="/progression/perks/perk[@name='perkCharismaticNature']">
+	
+		<effect_group>
+
+				<passive_effect name="HealthChangeOT" operation="base_add" level="1,5" value=".1,.5"/> 
+			
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,5" value=".1,.2"/>
+				<passive_effect name="BlockDamage" operation="perc_add" level="1,5" value=".1,.2" tags="melee"/>
+				
+				<passive_effect name="GeneralDamageResist" operation="base_add" level="1,5" value=".02,.1"/>
+											
+				<passive_effect name="LootStage" operation="perc_add" level="1,5" value=".02,.1"/>
+															
+				<passive_effect name="AttributeLevel" operation="base_add" level="5" value="1"/>
+				<passive_effect name="LootStage" operation="perc_add" level="1,5" value=".02,.1"/>
+		</effect_group>
+		
+	</append>
+	
+</configs>

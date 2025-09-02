@@ -1,0 +1,28 @@
+<config>
+
+	<!-- 天生自带的buff -->   <!-- 游戏一开始就有的buff -->   <!-- 下面append里就有@name的 -->
+    <append xpath="/buffs/buff[@name='buffStatusCheck01']">
+	            <!-- 换弹buff -->
+        <effect_group>
+            <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="换弹buff">
+                <requirement name="!HasBuff" buff="换弹buff"/>
+            </triggered_effect>
+        </effect_group>
+	</append>
+	
+	<!-- 独立的buff -->   <!-- 装备后或者使用后才有的buff -->   <!-- 下面append里只有buffs的，需要后面加buff name的 -->
+    <append xpath="/buffs">
+	    	<!-- 换弹buff -->
+        <buff name="换弹buff" hidden="true">
+        <stack_type value="ignore"/>
+        <duration value="0"/>
+        	<effect_group>
+			    <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.5" tags="铁管枪"/><!-- 增加远程装填速度 -->
+        	</effect_group>
+        </buff>
+    </append>
+</config>
+	
+	
+	
+	

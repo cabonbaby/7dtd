@@ -1,0 +1,3 @@
+Key,english,schinese,tchinese
+lblStashQuickStack,Quick Stack\nFirst click: Move items from inventory to fill up existing nearby container stacks.\nSecond click: Also create new stacks to move items.,快速堆叠\n首次点击：将物品从背包移动到附近容器的现有堆叠中，以填满它们。\n第二次点击：同时创建新堆叠以移动物品。,
+lblStashQuickRestock,Quick Restock\nFirst click: Take items from nearby container stacks to fill up existing inventory stacks.\nSecond click: Also create new stacks to take items.,快速补给\n首次点击：从附近容器的堆叠中取出物品，以填满背包中的现有堆叠。\n第二次点击：同时创建新堆叠以取出物品。,
